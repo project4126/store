@@ -2,7 +2,8 @@
   "name": "Store Manager",
   "short_name": "StoreManager",
   "description": "Utang Tracker & Money Lending Manager",
-  "start_url": "/index.html",
+  "start_url": "/store/index.html",
+  "scope": "/store/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -24,14 +25,14 @@
       "name": "Utang Tracker",
       "short_name": "Utang",
       "description": "Manage customer credit",
-      "url": "/index.html#utang",
+      "url": "/store/index.html#utang",
       "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
     },
     {
       "name": "Money Lending",
       "short_name": "Lending",
       "description": "Track loans",
-      "url": "/index.html#loans",
+      "url": "/store/index.html#loans",
       "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
     }
   ]
